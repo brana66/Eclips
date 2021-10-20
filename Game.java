@@ -4,7 +4,7 @@ import java.util.Random;
 public class Game {
     public static void main(String[]args){
     
-    	System.out.println("Let's play rock, paper, scissor");
+    	System.out.println("Let's play rock, paper, scissor....");
       
     	System.out.println("Enter 0 : rock | 1 : paper | 2 : scissor" +"\n" + "enter your choice : ");
         Scanner sc = new Scanner(System.in);
@@ -21,6 +21,8 @@ public class Game {
             System.out.println("ci wins");}
         else
             System.out.println("ui wins");
-
+        
+        
+        System.out.println("Thanks for playing Mate!");
     }
 }
